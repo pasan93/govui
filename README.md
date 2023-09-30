@@ -32,12 +32,12 @@ The Gov Open Source Template is a simple, reusable, highly readable, and clean w
 
 1. Clone the repository or download the zip file.
    ```sh
-   git clone https://github.com/your-username/your-repo-name.git
+   git clone https://github.com/pasan93/govui.git
    ```
 
 2. Navigate to the project directory.
    ```sh
-   cd your-repo-name
+   cd govui
    ```
 
 3. Open the `index.html` file in your preferred web browser.
