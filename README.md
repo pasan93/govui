@@ -2,8 +2,7 @@
 
 ![image](https://github.com/pasan93/govui/assets/29046066/c2264f68-6ca5-4229-990c-5f7c3dbcf181)
 
-![Uploading image.png…]()
-
+![image](https://github.com/pasan93/govui/assets/29046066/026411a8-8caf-475d-83e3-b35df8657f7a)
 
 
 
