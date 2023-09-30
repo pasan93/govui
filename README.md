@@ -1,5 +1,8 @@
 # Gov Open Source Template
 
+![image](https://github.com/pasan93/govui/assets/29046066/ed0c133a-1a26-4df1-ac0a-e77a775fbdcf)
+
+
 The Gov Open Source Template is a simple, reusable, highly readable, and clean web template designed for government-related projects or any other ventures that find it suitable. It’s built using Bootstrap, ensuring a responsive design, and follows best practises and coding standards for seamless development and integration.
 
 ## Table of Contents
