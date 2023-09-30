@@ -1,13 +1,72 @@
-*
- {
-
+body, html {
     margin: 0;
     padding: 0;
- }
+    height: 100%;
+    font-family: 'Roboto', Arial, sans-serif;
+    background-color: #f0f0f0;
+    font-size: 18px;
+}
 
- body
+#page-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
 
- {
+.gov-main {
+    flex-grow: 1;
+}
 
-    font-family: sans-serif;
- }
+.gov-header {
+    background-color: #005ea5;
+    color: #ffffff;
+}
+
+a.navbar-brand,
+.nav-item a {
+    color: #ffffff !important;
+    font-size: 1.1em;
+}
+
+nav ul li a:hover {
+    background-color: #000000;
+    color: #ffffff !important;
+}
+
+.gov-section {
+    padding: 20px;
+}
+
+.gov-footer {
+    background-color: #005ea5;
+    color: #ffffff;
+    text-align: left;
+    padding: 10px;
+}
+
+.gov-footer a {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.gov-footer a:hover {
+    color: #bbbbbb;
+}
+
+.ministry-box {
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+.ministry-box p {
+    font-size: 16px;
+    text-align: center;
+}
+
+.material-icons.md-48 {
+    font-size: 48px;
+}
+
+.language-toggle {
+    cursor: pointer;
+}
