@@ -2,75 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>body, html {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    font-family: 'Roboto', Arial, sans-serif;
-    background-color: #f0f0f0;
-    font-size: 18px;
-}
-
-#page-container {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-}
-
-.gov-main {
-    flex-grow: 1;
-}
-
-.gov-header {
-    background-color: #005ea5;
-    color: #ffffff;
-}
-
-a.navbar-brand,
-.nav-item a {
-    color: #ffffff !important;
-    font-size: 1.1em;
-}
-
-nav ul li a:hover {
-    background-color: #000000;
-    color: #ffffff !important;
-}
-
-.gov-section {
-    padding: 20px;
-}
-
-.gov-footer {
-    background-color: #005ea5;
-    color: #ffffff;
-    text-align: left;
-    padding: 10px;
-}
-
-.gov-footer a {
-    color: #ffffff;
-    text-decoration: underline;
-}
-
-.gov-footer a:hover {
-    color: #bbbbbb;
-}
-
-.ministry-box {
-    width: 200px;
-    margin-bottom: 20px;
-}
-
-.ministry-box p {
-    font-size: 16px;
-    text-align: center;
-}
-
-.material-icons.md-48 {
-    font-size: 48px;
-}
-Gov Open Source Template</title>
+    <title>Gov Open Source Template</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
@@ -82,7 +14,11 @@ Gov Open Source Template</title>
             <nav class="navbar navbar-expand-lg">
                 <div class="container">
                     <a class="navbar-brand" href="#">Gov Open Source Template</a>
-                    <div class="collapse navbar-collapse">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon material-icons md-36">menu</span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav ml-auto">
                             <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
                             <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
@@ -99,31 +35,61 @@ Gov Open Source Template</title>
                 <p>This is a simple, reusable template maintaining high readability and clean design standards.</p>
             </section>
             
-            <div class="ministry-container d-flex flex-wrap justify-content-around mt-4">
-                <div class="ministry-box text-center">
-                    <span class="material-icons md-48">shield</span>
-                    <p>Ministry of Defence</p>
+            <div class="ministry-container container mt-4">
+                <div class="row justify-content-center">
+                    <div class="ministry-box col-md-4 text-center mb-4">
+                        <span class="material-icons md-72">shield</span>
+                        <p>Ministry of Defence</p>
+                    </div>
+                    <div class="ministry-box col-md-4 text-center mb-4">
+                        <span class="material-icons md-72">account_balance</span>
+                        <p>Ministry of Finance, Economic Stabilisation and National Policies</p>
+                    </div>
+                    <div class="ministry-box col-md-4 text-center mb-4">
+                        <span class="material-icons md-72">laptop_chromebook</span>
+                        <p>Ministry of Technology</p>
+                    </div>
+                    <div class="ministry-box col-md-4 text-center mb-4">
+                        <span class="material-icons md-72">female</span>
+                        <p>Ministry of Women, Child Affairs and Social Empowerment</p>
+                    </div>
+                    <div class="ministry-box col-md-4 text-center mb-4">
+                        <span class="material-icons md-72">local_shipping</span>
+                        <p>Ministry of Ports, Shipping and Aviation</p>
+                    </div>
+                    <div class="ministry-box col-md-4 text-center mb-4">
+                        <span class="material-icons md-72">trending_up</span>
+                        <p>Ministry of Investment Promotion</p>
+                    </div>
                 </div>
-                <div class="ministry-box text-center">
-                    <span class="material-icons md-48">account_balance</span>
-                    <p>Ministry of Finance, Economic Stabilisation and National Policies</p>
-                </div>
-                <!-- ... Other Ministries ... -->
-                <div class="ministry-box text-center">
-                    <span class="material-icons md-48">store</span>
-                    <p>Ministry of Trade, Commerce and Food Security</p>
-                </div>
-                <!-- Added all the ministries with appropriate/random icons -->
-                <div class="ministry-box text-center">
-                    <span class="material-icons md-48">local_shipping</span>
-                    <p>Ministry of Ports, Shipping and Aviation</p>
-                </div>
-                <!-- ... Similarly, add the rest ... -->
             </div>
         </main>
-
-        <footer class="gov-footer text-left">
-            <p>© 2023 Gov Open Source Template | Powered by <a href="https://highflyerglobal.com" target="_blank">HighFlyer</a></p>
+        
+        <div class="footer-separator container mt-4"></div> 
+        
+        <footer class="gov-footer text-left py-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <h5>Quick Links</h5>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <h5>Terms & Policies</h5>
+                        <ul>
+                            <li><a href="#">Terms & Conditions</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <p>© 2023 Gov Open Source Template</p>
+                    </div>
+                </div>
+            </div>
         </footer>
     </div>
 
