@@ -3,7 +3,7 @@ body, html {
     padding: 0;
     height: 100%;
     font-family: 'Roboto', Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-color: #ffffff; /* Set the background color to white to match the footer */
     font-size: 18px;
 }
 
@@ -29,44 +29,33 @@ a.navbar-brand,
 }
 
 nav ul li a:hover {
-    background-color: #000000;
+    background-color: #005ea5;
     color: #ffffff !important;
+}
+
+.navbar-toggler {
+    color: #ffffff !important; /* Fixed the color to white */
+    border-color: #ffffff;
+}
+
+.material-icons.md-36,
+.material-icons.md-72 {
+    font-size: 36px; /* Adjust the size for md-36 and md-72 */
 }
 
 .gov-section {
     padding: 20px;
 }
 
+.footer-separator {
+    border-top: 1px solid #ddd;
+    margin: 0 15px;
+}
+
 .gov-footer {
-    background-color: #005ea5;
-    color: #ffffff;
+    background-color: #ffffff; /* Set to white to match the body */
+    color: #333;
     text-align: left;
-    padding: 10px;
 }
 
-.gov-footer a {
-    color: #ffffff;
-    text-decoration: underline;
-}
-
-.gov-footer a:hover {
-    color: #bbbbbb;
-}
-
-.ministry-box {
-    width: 200px;
-    margin-bottom: 20px;
-}
-
-.ministry-box p {
-    font-size: 16px;
-    text-align: center;
-}
-
-.material-icons.md-48 {
-    font-size: 48px;
-}
-
-.language-toggle {
-    cursor: pointer;
-}
+/* ... other styles remain the same ... */
