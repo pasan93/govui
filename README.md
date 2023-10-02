@@ -1,8 +1,11 @@
 # Gov Open Source Template
 
-![image](https://github.com/pasan93/govui/assets/29046066/c2264f68-6ca5-4229-990c-5f7c3dbcf181)
+## Desktop View
+![image](https://github.com/pasan93/govui/assets/29046066/ec518b43-c567-4a01-b2b7-74a72d75c339)
 
-![image](https://github.com/pasan93/govui/assets/29046066/026411a8-8caf-475d-83e3-b35df8657f7a)
+
+## Mobile View
+![image](https://github.com/pasan93/govui/assets/29046066/c7aa4e3a-d7cf-4963-b3c7-5b30181cc7a2)
 
 
 
